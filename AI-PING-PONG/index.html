@@ -1,0 +1,68 @@
+<!--created by prashant shukla-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AI PING PONG GAME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel = "icon" href = 
+    "data:image/jpeg;base64,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" 
+            type = "image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+  </head>
+  <body background="background1.jpg">
+    <center>
+      <div class="btn btn-warning heading">
+        <h3>AI PING PONG GAME</h3>
+        <button class="btn btn-warning" data-toggle="modal" data-target="#myModal">
+          Instructions
+        </button>
+      </div>
+      <br /><br />
+      <button class="btn btn-success" onclick="startGame()" id="start">
+        Play Game
+      </button>
+      <br /><br />
+      <h3 id="status" class="btn btn-default"></h3>
+      <br /><br />
+      <div id="canvas"></div>
+      <div id="game_console"></div>
+      <h4>Source Code : Atari || Game Credit : Pong</h4>
+
+      <!-- Div to Create Modal -->
+      <div id="myModal" class="modal fade">
+        <div class="modal-dialog" >
+          <!-- To display the content of the modal and the background to be given in white colour -->
+          <div class="modal-content">
+            <!--To give heading of the modal-->
+            <div class="modal-header">
+              <button class="close" data-dismiss="modal">&times;</button>
+              <h4>Instructions</h4>
+      </div>
+      <div class="modal-body">
+       
+        1. First keep your laptop screen straight.
+        <br>
+        2. Move yourself approximately 3-4 feet away from the laptop.
+        <br>
+        3. Move your right wrist in an ascending and decending manner, a red dot should appear on your right wrist.
+        <br>
+        4. Now press the play button, and again move yourself 3-4 feet away from laptop.
+        <br>
+        5. The red paddel is your paddel, that will move as per the movement of your right wrist.
+      </div>
+      </div>
+      </div>
+      </div>
+    </center>
+    <script src="main.js"></script>
+  </body>
+</html>
